@@ -1,0 +1,91 @@
+---
+description: AI Research & Professional Skills - 105 skills across 33 categories (AI Research, Trading, Engineering, Energy/Solar, Chess)
+globs:
+alwaysApply: true
+---
+
+# AI Research & Professional Skills Library
+
+You have access to **105 expert-level skills** installed at `~/.cursor/skills/` and `~/.orchestra/skills/`.
+
+## How to Use Skills
+
+When working on AI research tasks, read the relevant SKILL.md file to get expert guidance:
+
+### Skill Categories & When to Use
+
+| Category | Skills | Use When |
+|----------|--------|----------|
+| **Model Architecture** | litgpt, mamba, nanogpt, rwkv, torchtitan | Building/modifying model architectures |
+| **Tokenization** | huggingface-tokenizers, sentencepiece | Creating/customizing tokenizers |
+| **Fine-Tuning** | axolotl, llama-factory, peft, unsloth | Fine-tuning LLMs on custom data |
+| **Mech Interp** | transformer-lens, saelens, pyvene, nnsight | Mechanistic interpretability research |
+| **Data Processing** | nemo-curator, ray-data | Processing/curating training data |
+| **Post-Training** | trl-fine-tuning, grpo-rl-training, openrlhf, simpo, verl, slime, miles, torchforge | RLHF, DPO, GRPO, preference optimization |
+| **Safety** | constitutional-ai, llamaguard, nemo-guardrails, prompt-guard | Safety alignment & guardrails |
+| **Distributed Training** | accelerate, deepspeed, megatron-core, pytorch-fsdp2, pytorch-lightning, ray-train | Multi-GPU/multi-node training |
+| **Infrastructure** | modal, lambda-labs, skypilot | Cloud GPU provisioning |
+| **Optimization** | flash-attention, bitsandbytes, gptq, awq, hqq, gguf | Quantization & memory optimization |
+| **Evaluation** | lm-evaluation-harness, bigcode-evaluation-harness, nemo-evaluator | Benchmarking & evaluation |
+| **Inference** | vllm, tensorrt-llm, llama-cpp, sglang | Model serving & inference |
+| **MLOps** | mlflow, tensorboard, weights-and-biases | Experiment tracking |
+| **Agents** | langchain, llamaindex, crewai, autogpt | Building AI agents |
+| **RAG** | chroma, faiss, pinecone, qdrant, sentence-transformers | Retrieval-augmented generation |
+| **Prompt Engineering** | dspy, instructor, guidance, outlines | Structured prompting |
+| **Observability** | langsmith, phoenix | LLM monitoring & tracing |
+| **Multimodal** | clip, whisper, llava, blip-2, segment-anything, stable-diffusion, audiocraft | Vision, audio, multimodal AI |
+| **Emerging** | moe-training, model-merging, long-context, speculative-decoding, knowledge-distillation, model-pruning | Advanced techniques |
+| **Paper Writing** | ml-paper-writing | Writing ML research papers |
+| **Ideation** | brainstorming-research-ideas, creative-thinking-for-research | Research ideation |
+
+## Skill Lookup Pattern
+
+To use a skill, read the SKILL.md file:
+- Path: `~/.cursor/skills/{skill-name}/SKILL.md`
+- For deeper docs: `~/.orchestra/skills/{skill-name}/references/`
+
+## Custom Professional Skills (20 skills)
+
+| Category | Skills | Use When |
+|----------|--------|----------|
+| **Trading Bot** | trading-bot-python, market-data-pipeline | Building automated trading bots (MT5, ccxt) |
+| **Trading Analysis** | technical-analysis-trading, backtesting-strategies | TA indicators, strategy backtesting |
+| **Risk Management** | risk-management-trading | Position sizing, stop-loss, portfolio risk |
+| **ML Trading** | ml-trading-models | XGBoost, Random Forest, LightGBM, feature engineering |
+| **DL Trading** | deep-learning-trading | LSTM, Transformer, CNN-LSTM, RL agents (DQN/PPO) |
+| **Elliott Wave** | elliott-wave-analysis | Automated wave detection, Fibonacci projections |
+| **Wyckoff Method** | wyckoff-method | Accumulation/Distribution, Spring/Upthrust, VSA |
+| **Advanced Algo** | advanced-trading-algorithms | Fuzzy Logic, Adaptive Control, GA, PSO, HMM, ANFIS |
+| **Industrial Auto** | plc-scada-automation | PLC programming, SCADA, Modbus, OPC-UA |
+| **Electrical Eng** | electrical-engineering | Load calc, cable sizing, motor control, protection |
+| **PV Solar** | pv-solar-system | PV design, string sizing, inverter selection, yield simulation |
+| **BESS/BMS** | bess-battery-storage | Battery sizing, BMS algorithms, SOC/SOH, cell balancing |
+| **EMS** | ems-energy-management | EMS dispatch, PV+BESS+Grid optimization, peak shaving, TOU |
+| **Microgrid** | microgrid-power-system | Power flow, protection coordination, grid code, SLD |
+| **Solar Project** | solar-project-management | BOQ, construction method, hardware/software selection, ROI |
+| **Mechanical Eng** | mechanical-engineering | Shaft/bearing design, FEA, CAD automation |
+| **Construction** | construction-engineering | RC design, BOQ, foundations, project scheduling |
+| **Chess Coaching** | chess-coaching-engine | Stockfish integration, puzzles, training plans |
+
+## Quick Examples
+
+- User wants to fine-tune a model → Read `~/.cursor/skills/axolotl/SKILL.md` or `peft/SKILL.md`
+- User wants to serve a model → Read `~/.cursor/skills/vllm/SKILL.md`
+- User wants to build a trading bot → Read `~/.cursor/skills/trading-bot-python/SKILL.md`
+- User wants technical analysis → Read `~/.cursor/skills/technical-analysis-trading/SKILL.md`
+- User wants to backtest a strategy → Read `~/.cursor/skills/backtesting-strategies/SKILL.md`
+- User wants ML/AI trading models → Read `~/.cursor/skills/ml-trading-models/SKILL.md`
+- User wants LSTM/Transformer trading → Read `~/.cursor/skills/deep-learning-trading/SKILL.md`
+- User wants Elliott Wave analysis → Read `~/.cursor/skills/elliott-wave-analysis/SKILL.md`
+- User wants Wyckoff method → Read `~/.cursor/skills/wyckoff-method/SKILL.md`
+- User wants Fuzzy Logic/GA/PSO trading → Read `~/.cursor/skills/advanced-trading-algorithms/SKILL.md`
+- User wants PLC programming → Read `~/.cursor/skills/plc-scada-automation/SKILL.md`
+- User wants electrical calculations → Read `~/.cursor/skills/electrical-engineering/SKILL.md`
+- User wants PV solar design → Read `~/.cursor/skills/pv-solar-system/SKILL.md`
+- User wants BESS/battery sizing → Read `~/.cursor/skills/bess-battery-storage/SKILL.md`
+- User wants EMS optimization → Read `~/.cursor/skills/ems-energy-management/SKILL.md`
+- User wants microgrid/power system → Read `~/.cursor/skills/microgrid-power-system/SKILL.md`
+- User wants solar project BOQ/dự toán → Read `~/.cursor/skills/solar-project-management/SKILL.md`
+- User wants structural design → Read `~/.cursor/skills/construction-engineering/SKILL.md`
+- User wants chess coaching tools → Read `~/.cursor/skills/chess-coaching-engine/SKILL.md`
+- User wants distributed training → Read `~/.cursor/skills/deepspeed/SKILL.md`
