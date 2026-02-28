@@ -7,7 +7,7 @@ Personal AI agent skill library for Cursor IDE. Contains 105 expert-level skills
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/my-ai-skills.git
+git clone https://github.com/KieuTuanKien/my-ai-skills.git
 cd my-ai-skills
 .\scripts\setup.ps1
 ```
@@ -15,7 +15,7 @@ cd my-ai-skills
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/my-ai-skills.git
+git clone https://github.com/KieuTuanKien/my-ai-skills.git
 cd my-ai-skills
 chmod +x scripts/setup.sh
 ./scripts/setup.sh
