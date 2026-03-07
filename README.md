@@ -1,6 +1,6 @@
 # My AI Skills
 
-Personal AI agent skill library for Cursor IDE. Contains **178 expert-level skills** and working rules that sync across any machine.
+Personal AI agent skill library for Cursor IDE. Contains **180 expert-level skills** and working rules that sync across any machine.
 
 ## Quick Setup (New Machine)
 
@@ -33,7 +33,7 @@ chmod +x scripts/setup.sh
 
 ## What's Included
 
-### Skills (178 total)
+### Skills (180 total)
 
 | Group | Count | Categories |
 |-------|-------|-----------|
@@ -80,7 +80,7 @@ my-ai-skills/
 │   ├── trading-bot-python/SKILL.md
 │   ├── pv-solar-system/SKILL.md
 │   ├── ems-energy-management/SKILL.md
-│   └── ... (178 skills)
+│   └── ... (180 skills)
 ├── rules/
 │   ├── ai-research-skills.mdc
 │   └── working-principles.mdc
