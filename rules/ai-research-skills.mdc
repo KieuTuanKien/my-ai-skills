@@ -1,12 +1,12 @@
 ---
-description: AI Research, Full-Stack Dev & Professional Skills - 183 skills across 49 categories
+description: AI Research, Full-Stack Dev & Professional Skills - 184 skills across 50 categories
 globs:
 alwaysApply: true
 ---
 
 # AI Research, Full-Stack Dev & Professional Skills Library
 
-You have access to **183 expert-level skills** installed at `~/.cursor/skills/` and `~/.orchestra/skills/`.
+You have access to **184 expert-level skills** installed at `~/.cursor/skills/` and `~/.orchestra/skills/`.
 
 ## How to Use Skills
 
@@ -89,6 +89,7 @@ To use a skill, read the SKILL.md file:
 | **Revit MEP** | revit-mep-automation | Automated MEP design in Revit (electrical, HVAC, plumbing) |
 | **AutoCAD MEP** | autocad-mep-automation | Automated MEP drawing in AutoCAD (SLD, panel schedule, cable schedule, BOQ) |
 | **SolidWorks** | solidworks-automation | Automated 3D modeling, assembly, drawing, sheet metal, BOM in SolidWorks |
+| **AI Trading System** | ai-trading-system | AI-powered Gold/Forex trading with ML, DL, RL, GA, PSO, HMM ensemble |
 | **Construction** | construction-engineering | RC design, BOQ, foundations, project scheduling |
 | **Chess Coaching** | chess-coaching-engine | Stockfish integration, puzzles, training plans |
 
@@ -108,6 +109,7 @@ To use a skill, read the SKILL.md file:
 - User wants Revit MEP automation → Read `~/.cursor/skills/revit-mep-automation/SKILL.md`
 - User wants AutoCAD MEP automation → Read `~/.cursor/skills/autocad-mep-automation/SKILL.md`
 - User wants SolidWorks automation → Read `~/.cursor/skills/solidworks-automation/SKILL.md`
+- User wants AI trading bot for Gold/Forex → Read `~/.cursor/skills/ai-trading-system/SKILL.md`
 - User wants to fine-tune a model → Read `~/.cursor/skills/axolotl/SKILL.md` or `peft/SKILL.md`
 - User wants to serve a model → Read `~/.cursor/skills/vllm/SKILL.md`
 - User wants to build a trading bot → Read `~/.cursor/skills/trading-bot-python/SKILL.md`
