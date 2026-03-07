@@ -1,6 +1,6 @@
 # My AI Skills
 
-Personal AI agent skill library for Cursor IDE. Contains 105 expert-level skills and working rules that sync across any machine.
+Personal AI agent skill library for Cursor IDE. Contains **178 expert-level skills** and working rules that sync across any machine.
 
 ## Quick Setup (New Machine)
 
@@ -33,14 +33,16 @@ chmod +x scripts/setup.sh
 
 ## What's Included
 
-### Skills (105 total)
+### Skills (178 total)
 
 | Group | Count | Categories |
 |-------|-------|-----------|
 | AI Research (Orchestra) | 85 | Model Architecture, Tokenization, Fine-Tuning, Interpretability, Data Processing, Post-Training, Safety, Distributed Training, Infrastructure, Optimization, Evaluation, Inference, MLOps, Agents, RAG, Prompt Engineering, Observability, Multimodal, Emerging, Paper Writing, Ideation |
+| Full-Stack Development | 66 | Python, JS/TS, React, Next.js, Angular, Vue, Flutter, FastAPI, Django, NestJS, Spring Boot, Rails, Laravel, .NET, Postgres, GraphQL, WebSocket, Kubernetes, Terraform, DevOps, Security, Testing, Architecture, MCP, Embedded Systems |
 | Trading & Finance | 10 | Trading Bot, Market Data, Technical Analysis, Backtesting, Risk Management, ML Trading, DL Trading, Elliott Wave, Wyckoff, Advanced Algorithms |
 | Engineering | 5 | Industrial Automation, Electrical, Mechanical, Construction, PLC/SCADA |
 | Energy & Solar | 5 | PV Solar, BESS/BMS, EMS, Microgrid, Solar Project Management |
+| BESS Bidding & Reports | 7 | BESS Bidding Expert, Document Analyst, Excel Formatting, Excel Report Builder, Electrical Eng VN, Construction Method VN, PV-BESS Financial Analyst |
 
 ### Rules
 
@@ -78,7 +80,7 @@ my-ai-skills/
 │   ├── trading-bot-python/SKILL.md
 │   ├── pv-solar-system/SKILL.md
 │   ├── ems-energy-management/SKILL.md
-│   └── ... (105 skills)
+│   └── ... (178 skills)
 ├── rules/
 │   ├── ai-research-skills.mdc
 │   └── working-principles.mdc
